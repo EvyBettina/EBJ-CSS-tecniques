@@ -7,13 +7,13 @@ html {
 }
 
 .background-primary{
-    background-color: var(--primary);
+    background-color: var(--color-primary);
 }
 
 .background-secondary{
-    background-color: var(--secondary);
+    background-color: var(--color-secondary);
 }
 
 .text-primary{
-    color: var(--color-primary);
+    color: var(--color-text);
 }
