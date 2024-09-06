@@ -1,11 +1,19 @@
 html {
-    --text: #050315;
-    --background: #fbfbfe;
-    --primary: #ce27a7;
-    --secondary: #dedcff;
-    --accent: #433bff;   
+    --color-text: #050315;
+    --color-background: #fbfbfe;
+    --color-primary: #ce27a7;
+    --color-secondary: #dedcff;
+    --color-accent: #433bff;   
 }
 
 .background-primary{
     background-color: var(--primary);
+}
+
+.background-secondary{
+    background-color: var(--secondary);
+}
+
+.text-primary{
+    color: var(--color-primary);
 }
