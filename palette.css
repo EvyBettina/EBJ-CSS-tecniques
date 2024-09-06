@@ -1,0 +1,7 @@
+html(
+    --color-primary: yellow;
+)
+
+.background-primary(
+    background-color: var(color-primary);
+)
