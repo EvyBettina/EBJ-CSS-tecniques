@@ -1,19 +1,29 @@
 html {
-    --color-text: #050315;
-    --color-background: #fbfbfe;
-    --color-primary: #ce27a7;
-    --color-secondary: #dedcff;
-    --color-accent: #433bff;   
+    :root[data-theme="light"] {
+        --text: #050315;
+        --background: #fbfbfe;
+        --primary: #ce27a7;
+        --secondary: #dedcff;
+        --accent: #433bff;
+      }
+      :root[data-theme="dark"] {
+        --text: #ebe9fc;
+        --background: #010104;
+        --primary: #d831b1;
+        --secondary: #020024;
+        --accent: #0600c2;
+      }
+        
 }
 
 .background-primary{
-    background-color: var(--color-primary);
+    background-color: var(--primary);
 }
 
 .background-secondary{
-    background-color: var(--color-secondary);
+    background-color: var(--secondary);
 }
 
 .text-primary{
-    color: var(--color-text);
+    color: var(--text);
 }
