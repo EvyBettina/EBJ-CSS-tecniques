@@ -5,4 +5,4 @@ console.log("Theme button clicker")
 
 //find the button that should trigger the function
 let themeButton = document.getElementById("toogle-theme")
-themeButton.addEventListener("click", toggleTheme)
+themeButton.addEventListener("click", toggletheme)
